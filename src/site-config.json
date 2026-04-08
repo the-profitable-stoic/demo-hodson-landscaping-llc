@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "Hodson Landscaping, LLC",
+    "phone": "+12083800136",
+    "category": "landscaping company",
+    "city": "Boise",
+    "state": "ID"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-red-charge",
+      "categoryGroup": "roofing",
+      "name": "Red Charge",
+      "recipeFile": "roofing/red-charge.astro",
+      "colors": {
+        "primary": "#1F3A56",
+        "primaryDark": "#152B42",
+        "primaryLight": "#D0DCE8",
+        "secondary": "#2B4C6F",
+        "accent": "#DC143C",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1F3A56",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Boise's Landscape Experts",
+      "heroSubline": "Crafting exceptional outdoor spaces across the Treasure Valley. Hodson Landscaping delivers quality and lasting beauty to every project.",
+      "aboutTitle": "Crafting Boise's Landscape Dreams",
+      "aboutText": [
+        "Hodson Landscaping began over a decade ago with a simple mission: to transform Boise properties into stunning, functional outdoor living spaces. Founded by a local Boisean with a passion for the outdoors and a keen eye for design, we've grown from a small operation to a trusted name in landscaping.",
+        "Our approach is rooted in collaboration and a commitment to quality. We work closely with our clients, understanding their vision and tailoring our services to meet their specific needs and budget. We believe in using the best materials and employing skilled craftsmen to ensure lasting results that exceed expectations.",
+        "We're proud to be a part of the Boise community and are committed to giving back. We regularly support local organizations and participate in community beautification projects. We understand the unique challenges and opportunities of landscaping in the Treasure Valley, from water conservation to wildfire risk mitigation."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "Deep understanding of Boise's climate, soil, and plant life for thriving landscapes."
+        },
+        {
+          "title": "Custom Designs",
+          "description": "Tailored landscape designs that reflect your personal style and enhance your property's value."
+        },
+        {
+          "title": "Quality Craftsmanship",
+          "description": "Skilled professionals using premium materials for durable and beautiful results."
+        },
+        {
+          "title": "Reliable Service",
+          "description": "On-time project completion and responsive communication throughout the process."
+        }
+      ],
+      "ctaHeadline": "Transform Your Outdoor Space",
+      "ctaSubline": "Get a free consultation and discover how Hodson Landscaping can bring your vision to life."
+    },
+    "services": [
+      {
+        "slug": "landscape-design",
+        "name": "Landscape Design",
+        "shortDescription": "Creating stunning and functional outdoor spaces tailored to your Boise property.",
+        "description": "Our landscape design service is where your outdoor dreams take shape. We start by understanding your vision, lifestyle, and budget. Our experienced designers then create a custom plan that maximizes your property's potential, enhances its curb appeal, and provides lasting enjoyment. We consider every element, from plant selection and hardscaping to irrigation and lighting, ensuring a cohesive and sustainable design.\n\nWe take into account Boise's unique climate, with its hot summers and cold winters, to select plants that thrive in our environment. We also focus on water conservation, incorporating drought-tolerant landscaping and efficient irrigation systems. Whether you're looking for a tranquil garden retreat, a vibrant entertainment area, or a sustainable xeriscape, we'll create a landscape design that reflects your style and enhances your property's value.\n\nOur designs are presented in detailed plans, including plant lists, material specifications, and construction drawings. We work closely with you throughout the process, making revisions and adjustments as needed to ensure your complete satisfaction. With Hodson Landscaping, you can trust that your landscape design will be both beautiful and functional, adding lasting value to your Boise home.",
+        "process": [
+          "Step 1: Initial Consultation – Discuss your vision, budget, and property goals.",
+          "Step 2: Site Analysis – Assess your property's existing conditions, including soil, drainage, and sun exposure.",
+          "Step 3: Design Development – Create a custom landscape design plan with detailed drawings and specifications.",
+          "Step 4: Presentation & Revisions – Present the design plan and make revisions based on your feedback."
+        ],
+        "benefits": [
+          "Increased Property Value",
+          "Enhanced Curb Appeal",
+          "Functional Outdoor Living Spaces",
+          "Sustainable and Water-Wise Landscaping"
+        ],
+        "faq": [
+          {
+            "question": "How much does landscape design cost?",
+            "answer": "The cost of landscape design varies depending on the size and complexity of the project. We offer free consultations to provide you with a detailed estimate."
+          },
+          {
+            "question": "How long does the design process take?",
+            "answer": "The design process typically takes 2-4 weeks, depending on the scope of the project and the number of revisions required. We work closely with you to ensure the design meets your needs and expectations."
+          },
+          {
+            "question": "Do you offer 3D renderings of the landscape design?",
+            "answer": "Yes, we can provide 3D renderings to help you visualize the final result. This allows you to see exactly how your new landscape will look before construction begins."
+          }
+        ]
+      },
+      {
+        "slug": "lawn-care",
+        "name": "Lawn Care",
+        "shortDescription": "Keeping your Boise lawn healthy, green, and weed-free with expert care.",
+        "description": "Hodson Landscaping provides comprehensive lawn care services to keep your Boise lawn looking its best. We understand the unique challenges of maintaining a healthy lawn in our climate, from the dry summers to the harsh winters. Our experienced technicians use proven techniques and high-quality products to ensure your lawn thrives.\n\nOur lawn care services include fertilization, weed control, aeration, overseeding, and mowing. We tailor our treatments to the specific needs of your lawn, considering factors such as grass type, soil conditions, and sun exposure. We use slow-release fertilizers to provide consistent nutrients and prevent burning. Our weed control programs target both broadleaf and grassy weeds, keeping your lawn weed-free throughout the season.\n\nWe also offer specialized services such as aeration and overseeding to improve soil health and promote thicker, healthier grass. Aeration reduces soil compaction, allowing air, water, and nutrients to reach the roots. Overseeding fills in bare spots and improves the density of your lawn. With Hodson Landscaping, you can trust that your lawn will be the envy of the neighborhood.",
+        "process": [
+          "Step 1: Lawn Assessment – Evaluate your lawn's health, identify problem areas, and determine the best course of action.",
+          "Step 2: Fertilization – Apply slow-release fertilizers to provide essential nutrients for healthy growth.",
+          "Step 3: Weed Control – Control broadleaf and grassy weeds with targeted herbicide applications.",
+          "Step 4: Aeration & Overseeding (as needed) – Improve soil health and promote thicker grass growth."
+        ],
+        "benefits": [
+          "Healthy, Green Lawn",
+          "Weed-Free Turf",
+          "Improved Soil Health",
+          "Increased Curb Appeal"
+        ],
+        "faq": [
+          {
+            "question": "How often should I fertilize my lawn?",
+            "answer": "We recommend fertilizing your lawn 4-6 times per year, depending on the grass type and soil conditions. Our technicians can create a customized fertilization schedule for your lawn."
+          },
+          {
+            "question": "When is the best time to aerate my lawn?",
+            "answer": "The best time to aerate your lawn is in the fall or early spring, when the grass is actively growing. Aeration helps to reduce soil compaction and improve air and water circulation."
+          },
+          {
+            "question": "What types of weeds do you control?",
+            "answer": "We control a wide variety of weeds, including dandelions, clover, crabgrass, and other common lawn weeds. Our weed control programs are designed to target both broadleaf and grassy weeds."
+          }
+        ]
+      },
+      {
+        "slug": "sprinkler-systems",
+        "name": "Sprinkler Systems",
+        "shortDescription": "Efficient and reliable sprinkler systems for healthy lawns and water conservation.",
+        "description": "Hodson Landscaping specializes in the design, installation, and maintenance of sprinkler systems for Boise homes and businesses. We understand the importance of efficient irrigation for maintaining a healthy landscape, especially in our dry climate. Our experienced technicians will design a custom sprinkler system that meets the specific needs of your property, ensuring optimal coverage and water conservation.\n\nWe offer a wide range of sprinkler system services, including system design, installation, repair, and maintenance. We use high-quality components from leading manufacturers to ensure reliability and durability. Our systems are designed to minimize water waste and maximize efficiency, helping you save money on your water bill.\n\nWe also offer smart sprinkler systems that automatically adjust watering schedules based on weather conditions. These systems use sensors to measure rainfall, temperature, and humidity, ensuring your lawn and plants receive the right amount of water at the right time. With Hodson Landscaping, you can trust that your sprinkler system will be both efficient and effective, keeping your landscape healthy and beautiful.",
+        "process": [
+          "Step 1: Site Assessment – Evaluate your property's irrigation needs and design a custom sprinkler system.",
+          "Step 2: System Installation – Install high-quality sprinkler components with minimal disruption to your landscape.",
+          "Step 3: System Programming – Program the sprinkler system to provide optimal watering schedules.",
+          "Step 4: System Maintenance – Provide ongoing maintenance and repairs to ensure optimal performance."
+        ],
+        "benefits": [
+          "Efficient Irrigation",
+          "Water Conservation",
+          "Healthy Lawn and Plants",
+          "Reduced Water Bills"
+        ],
+        "faq": [
+          {
+            "question": "How much does a sprinkler system cost?",
+            "answer": "The cost of a sprinkler system varies depending on the size and complexity of the project. We offer free consultations to provide you with a detailed estimate."
+          },
+          {
+            "question": "How often should I have my sprinkler system serviced?",
+            "answer": "We recommend having your sprinkler system serviced at least once a year, preferably in the spring before the start of the irrigation season. This will ensure that your system is working properly and efficiently."
+          },
+          {
+            "question": "Do you offer smart sprinkler systems?",
+            "answer": "Yes, we offer smart sprinkler systems that automatically adjust watering schedules based on weather conditions. These systems can help you save water and money."
+          }
+        ]
+      },
+      {
+        "slug": "hardscaping",
+        "name": "Hardscaping",
+        "shortDescription": "Creating beautiful and functional outdoor living spaces with patios, walkways, and retaining walls.",
+        "description": "Hodson Landscaping specializes in hardscaping services to transform your Boise property into a stunning outdoor oasis. We design and build patios, walkways, retaining walls, and other hardscape features that enhance the beauty and functionality of your landscape. Our experienced craftsmen use high-quality materials and proven techniques to ensure lasting results.\n\nPatios provide a perfect space for outdoor entertaining and relaxation. We offer a wide range of patio materials, including pavers, flagstone, and concrete. Walkways create inviting pathways through your landscape, connecting different areas of your property. Retaining walls provide structural support and prevent soil erosion, while also adding visual interest to your landscape.\n\nWe work closely with you to create a hardscape design that meets your specific needs and reflects your personal style. Whether you're looking for a cozy patio for intimate gatherings or a grand outdoor living space for entertaining large groups, we can bring your vision to life. With Hodson Landscaping, you can trust that your hardscaping project will be both beautiful and functional, adding lasting value to your Boise home.",
+        "process": [
+          "Step 1: Design Consultation – Discuss your vision, budget, and property goals.",
+          "Step 2: Site Preparation – Prepare the site for hardscape installation, including excavation and grading.",
+          "Step 3: Hardscape Installation – Install patios, walkways, retaining walls, and other hardscape features.",
+          "Step 4: Final Touches – Add finishing touches to complete the project and ensure your satisfaction."
+        ],
+        "benefits": [
+          "Enhanced Outdoor Living Spaces",
+          "Increased Property Value",
+          "Improved Functionality",
+          "Durable and Long-Lasting Results"
+        ],
+        "faq": [
+          {
+            "question": "How much does hardscaping cost?",
+            "answer": "The cost of hardscaping varies depending on the size and complexity of the project. We offer free consultations to provide you with a detailed estimate."
+          },
+          {
+            "question": "What types of materials do you use for hardscaping?",
+            "answer": "We use a wide range of materials, including pavers, flagstone, concrete, and natural stone. We can help you choose the best materials for your project based on your budget and aesthetic preferences."
+          },
+          {
+            "question": "How long does it take to complete a hardscaping project?",
+            "answer": "The timeline for a hardscaping project varies depending on the scope of the project. We will provide you with a detailed timeline during the design consultation."
+          }
+        ]
+      },
+      {
+        "slug": "outdoor-lighting",
+        "name": "Outdoor Lighting",
+        "shortDescription": "Enhancing the beauty and safety of your Boise property with professional outdoor lighting.",
+        "description": "Hodson Landscaping provides professional outdoor lighting services to enhance the beauty, safety, and security of your Boise property. We design and install custom lighting systems that highlight your landscape features, illuminate walkways and driveways, and create a warm and inviting atmosphere. Our experienced technicians use high-quality fixtures and energy-efficient LED technology to ensure lasting results.\n\nOutdoor lighting can transform your property at night, creating a dramatic and inviting ambiance. We offer a wide range of lighting options, including path lighting, spotlighting, accent lighting, and security lighting. We can help you choose the right lighting fixtures and placement to achieve your desired effect.\n\nOur outdoor lighting systems are designed to be both beautiful and functional, providing safety and security while also enhancing the aesthetic appeal of your property. We use energy-efficient LED technology to minimize energy consumption and reduce your carbon footprint. With Hodson Landscaping, you can trust that your outdoor lighting system will be both beautiful and sustainable, adding lasting value to your Boise home.",
+        "process": [
+          "Step 1: Lighting Design – Create a custom lighting design plan that meets your specific needs and goals.",
+          "Step 2: Fixture Selection – Choose high-quality lighting fixtures that complement your landscape and architecture.",
+          "Step 3: System Installation – Install the lighting system with minimal disruption to your landscape.",
+          "Step 4: System Programming – Program the lighting system to provide optimal lighting schedules."
+        ],
+        "benefits": [
+          "Enhanced Beauty and Ambiance",
+          "Increased Safety and Security",
+          "Energy Efficiency",
+          "Increased Property Value"
+        ],
+        "faq": [
+          {
+            "question": "How much does outdoor lighting cost?",
+            "answer": "The cost of outdoor lighting varies depending on the size and complexity of the project. We offer free consultations to provide you with a detailed estimate."
+          },
+          {
+            "question": "What types of lighting fixtures do you use?",
+            "answer": "We use a wide range of lighting fixtures, including path lights, spotlights, accent lights, and security lights. We use high-quality fixtures and energy-efficient LED technology."
+          },
+          {
+            "question": "How long does it take to install an outdoor lighting system?",
+            "answer": "The timeline for installing an outdoor lighting system varies depending on the scope of the project. We will provide you with a detailed timeline during the design consultation."
+          }
+        ]
+      },
+      {
+        "slug": "fall-cleanup",
+        "name": "Fall Cleanup",
+        "shortDescription": "Preparing your Boise landscape for winter with thorough fall cleanup services.",
+        "description": "Hodson Landscaping offers comprehensive fall cleanup services to prepare your Boise landscape for the harsh winter months. We understand the importance of removing leaves, debris, and dead plant material to prevent disease and promote healthy growth in the spring. Our experienced technicians will thoroughly clean your landscape, ensuring it's ready to withstand the winter and thrive in the following season.\n\nOur fall cleanup services include leaf removal, debris removal, pruning, and winterization. We remove all leaves and debris from your lawn, garden beds, and hardscape surfaces. We prune dead or damaged branches from trees and shrubs to prevent disease and promote healthy growth. We also winterize your irrigation system to prevent freezing and damage.\n\nPreparing your landscape for winter is essential for maintaining its health and beauty. With Hodson Landscaping, you can trust that your fall cleanup will be thorough and professional, ensuring your landscape is ready for whatever winter throws its way. This is especially important in Boise, with our cold winters and occasional heavy snowfalls.",
+        "process": [
+          "Step 1: Leaf Removal – Remove all leaves from your lawn, garden beds, and hardscape surfaces.",
+          "Step 2: Debris Removal – Remove debris such as branches, twigs, and dead plant material.",
+          "Step 3: Pruning – Prune dead or damaged branches from trees and shrubs.",
+          "Step 4: Winterization – Winterize your irrigation system to prevent freezing and damage."
+        ],
+        "benefits": [
+          "Disease Prevention",
+          "Healthy Growth in Spring",
+          "Improved Curb Appeal",
+          "Protection from Winter Damage"
+        ],
+        "faq": [
+          {
+            "question": "Why is fall cleanup important?",
+            "answer": "Fall cleanup is important for preventing disease, promoting healthy growth in the spring, and protecting your landscape from winter damage. Removing leaves and debris prevents the buildup of moisture and fungi, which can lead to disease."
+          },
+          {
+            "question": "When is the best time to schedule fall cleanup?",
+            "answer": "The best time to schedule fall cleanup is after the leaves have fallen, typically in late October or early November. We can schedule your cleanup at your convenience."
+          },
+          {
+            "question": "Do you offer leaf removal services only?",
+            "answer": "Yes, we offer leaf removal services as part of our fall cleanup package. We can also provide leaf removal as a standalone service."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Boise",
+        "slug": "boise-id",
+        "state": "ID",
+        "content": "Hodson Landscaping, LLC is proud to offer comprehensive landscaping services to the residents and businesses of Boise, Idaho. From lawn care and maintenance to landscape design and installation, we are committed to creating beautiful and functional outdoor spaces that enhance the value and enjoyment of your property. We understand the unique challenges and opportunities presented by Boise's climate and soil conditions, allowing us to tailor our services to meet your specific needs.\n\nWhether you're looking to create a vibrant garden, install a durable patio, or simply maintain a healthy lawn, Hodson Landscaping, LLC has the expertise and experience to deliver exceptional results. We use only the highest quality materials and employ proven techniques to ensure that your landscaping project is completed to your satisfaction. We are dedicated to providing reliable, professional, and affordable landscaping services throughout the Boise area.",
+        "localContext": "Boise is the capital and most populous city of Idaho, known for its vibrant downtown, access to outdoor recreation, and thriving arts and culture scene. Hodson Landscaping is proud to serve the residents and businesses in the Treasure Valley.",
+        "nearbyAreas": [
+          "Meridian",
+          "Nampa",
+          "Eagle"
+        ]
+      },
+      {
+        "city": "Meridian",
+        "slug": "meridian-id",
+        "state": "ID",
+        "content": "Hodson Landscaping, LLC extends its expert landscaping services to the growing community of Meridian, Idaho. We recognize the importance of well-maintained and aesthetically pleasing outdoor spaces in enhancing the quality of life for Meridian residents. Our team is equipped to handle a wide range of landscaping needs, from routine lawn care to complete landscape renovations.\n\nWe are committed to providing Meridian homeowners and businesses with reliable and affordable landscaping solutions. Whether you're looking to create a relaxing backyard oasis, improve your curb appeal, or maintain a professional-looking commercial landscape, Hodson Landscaping, LLC is here to help. We take pride in our attention to detail and our commitment to exceeding customer expectations.",
+        "localContext": "Meridian is one of the fastest-growing cities in Idaho, offering a blend of suburban comfort and access to urban amenities. Hodson Landscaping understands the specific needs of Meridian homeowners.",
+        "nearbyAreas": [
+          "Boise",
+          "Nampa",
+          "Eagle"
+        ]
+      },
+      {
+        "city": "Nampa",
+        "slug": "nampa-id",
+        "state": "ID",
+        "content": "Hodson Landscaping, LLC is pleased to offer its professional landscaping services to the residents and businesses of Nampa, Idaho. We understand the importance of creating and maintaining beautiful outdoor spaces that reflect the unique character of Nampa. Our team is dedicated to providing high-quality landscaping services that enhance the value and enjoyment of your property.\n\nFrom lawn care and maintenance to landscape design and installation, Hodson Landscaping, LLC has the expertise and resources to meet all of your landscaping needs in Nampa. We are committed to providing reliable, affordable, and customer-focused services that exceed your expectations. Let us help you create the outdoor space of your dreams.",
+        "localContext": "Nampa is a vibrant city in the Treasure Valley, known for its agricultural heritage and strong community spirit. Hodson Landscaping is committed to serving the landscaping needs of Nampa residents.",
+        "nearbyAreas": [
+          "Caldwell",
+          "Meridian",
+          "Star"
+        ]
+      },
+      {
+        "city": "Eagle",
+        "slug": "eagle-id",
+        "state": "ID",
+        "content": "Hodson Landscaping, LLC provides top-notch landscaping services to the beautiful town of Eagle, Idaho. We understand the importance of maintaining lush and inviting outdoor spaces in Eagle's upscale residential areas. Our team is experienced in creating and maintaining landscapes that complement the unique architectural styles and natural surroundings of Eagle.\n\nWhether you're looking to design a custom garden, install a stunning water feature, or simply maintain a healthy and vibrant lawn, Hodson Landscaping, LLC is here to help. We are committed to providing exceptional customer service and delivering results that exceed your expectations. We service all of Eagle, ID.",
+        "localContext": "Eagle is known for its scenic beauty, luxury homes, and equestrian culture. Hodson Landscaping provides landscaping services tailored for the specific needs of Eagle residents.",
+        "nearbyAreas": [
+          "Star",
+          "Boise",
+          "Meridian"
+        ]
+      },
+      {
+        "city": "Caldwell",
+        "slug": "caldwell-id",
+        "state": "ID",
+        "content": "Hodson Landscaping, LLC is dedicated to providing exceptional landscaping services to the residents and businesses of Caldwell, Idaho. We understand the importance of creating and maintaining beautiful outdoor spaces that enhance the value and appeal of your property. Our team is committed to delivering high-quality landscaping services that meet your specific needs and budget.\n\nFrom lawn care and maintenance to landscape design and installation, Hodson Landscaping, LLC has the expertise and resources to transform your outdoor space into a beautiful and functional oasis. We are committed to providing reliable, professional, and affordable landscaping services throughout the Caldwell area. We are proud to serve the residents and businesses of Caldwell.",
+        "localContext": "Caldwell is a growing city in the Treasure Valley, known for its agricultural heritage and access to outdoor recreation. Hodson Landscaping is committed to serving the landscaping needs of Caldwell residents.",
+        "nearbyAreas": [
+          "Nampa",
+          "Middleton",
+          "Parma"
+        ]
+      },
+      {
+        "city": "Star",
+        "slug": "star-id",
+        "state": "ID",
+        "content": "Hodson Landscaping, LLC is proud to offer comprehensive landscaping services to the rapidly growing community of Star, Idaho. We recognize the importance of well-designed and maintained outdoor spaces in enhancing the beauty and value of Star's residential and commercial properties. Our team is equipped to handle a wide range of landscaping needs, from routine lawn care to complete landscape renovations.\n\nWe are committed to providing Star homeowners and businesses with reliable and affordable landscaping solutions. Whether you're looking to create a welcoming front yard, a relaxing backyard retreat, or a professional-looking commercial landscape, Hodson Landscaping, LLC is here to help. We take pride in our attention to detail and our commitment to exceeding customer expectations.",
+        "localContext": "Star is a fast-growing community in the Treasure Valley, known for its family-friendly atmosphere and scenic beauty. Hodson Landscaping understands the specific landscaping needs of Star residents.",
+        "nearbyAreas": [
+          "Eagle",
+          "Middleton",
+          "Emmett"
+        ]
+      },
+      {
+        "city": "Middleton",
+        "slug": "middleton-id",
+        "state": "ID",
+        "content": "Hodson Landscaping, LLC extends its expert landscaping services to the town of Middleton, Idaho. We understand the importance of maintaining aesthetically pleasing outdoor spaces. Our team is equipped to handle a wide range of landscaping needs, from routine lawn care to complete landscape renovations.\n\nWe are committed to providing Middleton homeowners and businesses with reliable and affordable landscaping solutions. Whether you're looking to create a relaxing backyard oasis, improve your curb appeal, or maintain a professional-looking commercial landscape, Hodson Landscaping, LLC is here to help. We take pride in our attention to detail and our commitment to exceeding customer expectations.",
+        "localContext": "Middleton is a vibrant city in the Treasure Valley, known for its agricultural heritage and strong community spirit. Hodson Landscaping is committed to serving the landscaping needs of Middleton residents.",
+        "nearbyAreas": [
+          "Caldwell",
+          "Star",
+          "Emmett"
+        ]
+      },
+      {
+        "city": "Emmett",
+        "slug": "emmett-id",
+        "state": "ID",
+        "content": "Hodson Landscaping, LLC is pleased to offer its professional landscaping services to the residents and businesses of Emmett, Idaho. We understand the importance of creating and maintaining beautiful outdoor spaces that reflect the unique character of Emmett. Our team is dedicated to providing high-quality landscaping services that enhance the value and enjoyment of your property.\n\nFrom lawn care and maintenance to landscape design and installation, Hodson Landscaping, LLC has the expertise and resources to meet all of your landscaping needs in Emmett. We are committed to providing reliable, affordable, and customer-focused services that exceed your expectations. Let us help you create the outdoor space of your dreams in Emmett.",
+        "localContext": "Emmett is a vibrant city in the Treasure Valley, known for its agricultural heritage and strong community spirit. Hodson Landscaping is committed to serving the landscaping needs of Emmett residents.",
+        "nearbyAreas": [
+          "Star",
+          "Middleton",
+          "Horseshoe Bend"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Landscape Design",
+        "text": "Hodson Landscaping completely transformed our backyard! We had a vision of a relaxing oasis, and they brought it to life. The design process was collaborative, and the team was incredibly professional. We especially love the new patio and fire pit. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "John B.",
+        "rating": 4,
+        "service": "Lawn Care",
+        "text": "Our lawn has never looked better! Hodson Landscaping's lawn care program has made a huge difference. The weeds are gone, and the grass is thick and green. They're always on time and communicative. A great local company.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Emily K.",
+        "rating": 5,
+        "service": "Sprinkler System Installation",
+        "text": "We had Hodson Landscaping install a new sprinkler system, and it was a seamless experience. They were knowledgeable, efficient, and the system works perfectly. Our water bill has even gone down! Thanks, Hodson Landscaping!",
+        "date": "2024-09-01"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Hardscaping",
+        "text": "The retaining wall Hodson Landscaping built for us is not only functional but also beautiful. It completely transformed our sloped backyard into a usable space. The craftsmanship is excellent, and the team was a pleasure to work with.",
+        "date": "2024-07-10"
+      },
+      {
+        "name": "Jessica P.",
+        "rating": 4,
+        "service": "Outdoor Lighting",
+        "text": "We love the outdoor lighting Hodson Landscaping installed. Our house looks amazing at night, and we feel much safer. The team was professional and helped us choose the perfect fixtures to highlight our landscape.",
+        "date": "2024-05-05"
+      },
+      {
+        "name": "Mike R.",
+        "rating": 5,
+        "service": "Fall Cleanup",
+        "text": "Hodson Landscaping did a fantastic job with our fall cleanup. They removed all the leaves and debris, and our yard looks great. A huge help preparing for winter! Will definitely use them again next year.",
+        "date": "2023-12-01"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Hodson Landscaping | Boise, ID",
+        "description": "Top-rated Boise landscaping company. Design, lawn care, sprinklers, hardscaping & more. Transform your outdoor space today!"
+      },
+      "about": {
+        "title": "About Hodson Landscaping",
+        "description": "Learn about Hodson Landscaping's story, values, and commitment to serving the Boise community with exceptional landscaping services."
+      },
+      "services": {
+        "title": "Landscaping Services | Boise, ID",
+        "description": "Comprehensive landscaping services in Boise, ID. Landscape design, lawn care, sprinkler systems, hardscaping, outdoor lighting & more."
+      },
+      "contact": {
+        "title": "Contact Hodson Landscaping",
+        "description": "Contact Hodson Landscaping for a free consultation. Serving Boise, ID and surrounding areas. Call +12083800136 today!"
+      },
+      "reviews": {
+        "title": "Hodson Landscaping Reviews",
+        "description": "Read reviews from satisfied Hodson Landscaping customers in Boise, ID. See why we're the trusted choice for landscaping services."
+      },
+      "service-areas": {
+        "title": "Hodson Landscaping Service Areas",
+        "description": "Hodson Landscaping proudly serves Boise, ID and surrounding communities. Contact us today for landscaping services in your area."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "landscape-design": "/images/service-landscape-design.webp",
+      "lawn-care": "/images/service-lawn-care.webp",
+      "sprinkler-systems": "/images/service-sprinkler-systems.webp",
+      "hardscaping": "/images/service-hardscaping.webp",
+      "outdoor-lighting": "/images/service-outdoor-lighting.webp",
+      "fall-cleanup": "/images/service-fall-cleanup.webp"
+    },
+    "servicesResponsive": {
+      "landscape-design": {
+        "src": "/images/service-landscape-design.webp",
+        "srcset": "/images/service-landscape-design-400w.webp 400w, /images/service-landscape-design-800w.webp 800w, /images/service-landscape-design-1200w.webp 1200w, /images/service-landscape-design.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "lawn-care": {
+        "src": "/images/service-lawn-care.webp",
+        "srcset": "/images/service-lawn-care-400w.webp 400w, /images/service-lawn-care-800w.webp 800w, /images/service-lawn-care-1200w.webp 1200w, /images/service-lawn-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sprinkler-systems": {
+        "src": "/images/service-sprinkler-systems.webp",
+        "srcset": "/images/service-sprinkler-systems-400w.webp 400w, /images/service-sprinkler-systems-800w.webp 800w, /images/service-sprinkler-systems-1200w.webp 1200w, /images/service-sprinkler-systems.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "hardscaping": {
+        "src": "/images/service-hardscaping.webp",
+        "srcset": "/images/service-hardscaping-400w.webp 400w, /images/service-hardscaping-800w.webp 800w, /images/service-hardscaping-1200w.webp 1200w, /images/service-hardscaping.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "outdoor-lighting": {
+        "src": "/images/service-outdoor-lighting.webp",
+        "srcset": "/images/service-outdoor-lighting-400w.webp 400w, /images/service-outdoor-lighting-800w.webp 800w, /images/service-outdoor-lighting-1200w.webp 1200w, /images/service-outdoor-lighting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fall-cleanup": {
+        "src": "/images/service-fall-cleanup.webp",
+        "srcset": "/images/service-fall-cleanup-400w.webp 400w, /images/service-fall-cleanup-800w.webp 800w, /images/service-fall-cleanup-1200w.webp 1200w, /images/service-fall-cleanup.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
